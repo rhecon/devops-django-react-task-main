@@ -1,12 +1,11 @@
+version: '2'
 services:
   api:
-    build: ./api      
+    build: ./api        
     ports:
       - "8000:8000"
-    
 
   web:
     build: ./frontend
     ports:
       - "3000:3000"
-    
